@@ -225,18 +225,18 @@ function residences_install(){
                             {$streetname_drop}    
                         </select>
                     </td>
-                    <td class="trow2" align="center">
+                    <td class="trow1" align="center">
                         <input type="text" name="number" id="number" placeholder="{$lang->residences_home_add_number_desc}" class="textbox">
                     </td>
-                    <td class="trow2" align="center">	
+                    <td class="trow1" align="center">	
                         <input type="text" name="type" id="type" placeholder="{$lang->residences_home_add_type_desc}" class="textbox">
                     </td>
-                    <td class="trow2" align="center">	
+                    <td class="trow1" align="center">	
                         <input type="text" name="personcount" id="personcount" placeholder="{$lang->residences_home_add_personcount_desc}" class="textbox">
                     </td>
                 </tr>
                 <tr>
-                    <td class="trow2" align="center" colspan="4">	
+                    <td class="trow1" align="center" colspan="4">	
                         <input type="hidden" name="action" value="add_home">                    
                         <input type="submit" value="{$lang->residences_home_add_send}" name="add_home" class="button">
                     </td>
@@ -342,7 +342,7 @@ function residences_install(){
                                 </td>
                             </tr>
                             <tr>
-                                <td class="trow2">{$residences_modcp_home_bit}</td>
+                                <td class="trow1">{$residences_modcp_home_bit}</td>
                             </tr>
                         </table>
                     </td>
@@ -371,11 +371,11 @@ function residences_install(){
                 <td align="center" colspan="2">Eingesendet von {$sendedby}</td>
             </tr>
             <tr>
-                <td class="trow2" align="center" width="50%">
+                <td class="trow1" align="center" width="50%">
                     <a href="modcp.php?action=residences_home&accept={$hid}" class="button">{$lang->residences_modcp_home_bit_accept}</a>
                 </td>
                 
-                <td class="trow2" align="center" width="50%">
+                <td class="trow1" align="center" width="50%">
                     <a href="modcp.php?action=residences_home&delete={$hid}" class="button">{$lang->residences_modcp_home_bit_delete}</a> 
                 </td>
             </tr>
@@ -425,7 +425,7 @@ function residences_install(){
                                 </td>
                             </tr>
                             <tr>
-                                <td class="trow2">{$residences_modcp_streets_bit}</td>
+                                <td class="trow1">{$residences_modcp_streets_bit}</td>
                             </tr>
                         </table>
                     </td>
@@ -454,16 +454,16 @@ function residences_install(){
                 <td align="center" colspan="2">Eingesendet von {$sendedby}</td>
             </tr>
             <tr>
-                <td class="trow2" colspan="2" align="justify">
+                <td class="trow1" colspan="2" align="justify">
                     {$description}
                 </td> 
             </tr>
             <tr>
-                <td class="trow2" align="center" width="50%">
+                <td class="trow1" align="center" width="50%">
                     <a href="modcp.php?action=residences_streets&accept={$sid}" class="button">{$lang->residences_modcp_streets_bit_accept}</a>
                 </td>
                 
-                <td class="trow2" align="center" width="50%">
+                <td class="trow1" align="center" width="50%">
                     <a href="modcp.php?action=residences_streets&delete={$sid}" class="button">{$lang->residences_modcp_streets_bit_delete}</a> 
                 </td>
             </tr>
@@ -523,7 +523,7 @@ function residences_install(){
                     <td class="trow1" align="center">
                         <input type="text" name="streetname" id="streetname" placeholder="Name der Straße" class="textbox">
                     </td>
-                    <td class="trow2" align="center">
+                    <td class="trow1" align="center">
                         <select name="rate" id="rate">          
                             <option value="">Bewertung auswählen</option>              
                             <option value="0">0/5</option>
@@ -534,12 +534,12 @@ function residences_install(){
                             <option value="5">5/5</option>
                         </select>
                     </td>
-                    <td class="trow2" align="center">	
+                    <td class="trow1" align="center">	
                         <textarea name="description" id="description" style="width: 200px; height: 50px;"></textarea>
                     </td>
                 </tr>
                 <tr>
-                    <td class="trow2" align="center" colspan="4">	
+                    <td class="trow1" align="center" colspan="4">	
                         <input type="hidden" name="action" value="add_streets">                
                         <input type="submit" value="{$lang->residences_streets_add_send}" name="add_streets" class="button">
                     </td>
