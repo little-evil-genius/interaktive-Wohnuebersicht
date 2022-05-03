@@ -7,7 +7,7 @@ if(!defined("IN_MYBB"))
 
 // HOOKS
 $plugins->add_hook("misc_start", "residences_misc");
-$plugins->add_hook('global_start', 'residences_global');
+$plugins->add_hook('global_intermediate', 'residences_global');
 $plugins->add_hook('modcp_nav', 'residences_modcp_nav');
 $plugins->add_hook("modcp_start", "residences_modcp");
 $plugins->add_hook("member_profile_end", "residences_memberprofile");
