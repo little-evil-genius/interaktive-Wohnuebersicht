@@ -1,6 +1,4 @@
 # interaktive-Wohnuebersicht
-
-# Wohnorte
 Dieses Plugin erweitert das Board um eine manuelle Liste über die Wohnorte der Charaktere. Ausgewählte Gruppen können Straßen und Wohnorte hinzufügen, welche vom Team freigeschaltet werden müssen. Die Benachrichtigung erfolgt über eine MyAlert Benachrichtigung.
 Den Straßen können Beschreibungen und Bewertungen hinzugefügt werden. User können nur in einen einzigen Wohnort einziehen und die Adresse (Straße Nummer (Stadt)) wird dann über eine Variable im Profil angezeigt. Genau wie alle Mitbewohner von dem Charakter
 
