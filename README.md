@@ -37,12 +37,19 @@ Hinzugefügte Tabellen:
 - Erlaubte Gruppen für die Wohnorte
 - Erlaubte Gruppen für die Straßen
 - Straßen löschen User
-- Wohnorte löschen Use
+- Wohnorte löschen User
 
 # Links
 - https://euerforum.de/misc.php?action=residences
 - https://euerforum.de/modcp.php?action=residences_streets
 - https://euerforum.de/modcp.php?action=residences_home
+
+# CSS Erweiterung
+<blockquote>
+  :root {
+  --street-rate: red;
+  }
+  </blockquote>
 
 # Demo
 <img src="https://www.bilder-hochladen.net/files/big/m4bn-e2-87b6.png">
