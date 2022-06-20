@@ -45,6 +45,6 @@ Hinzugefügte Tabellen:
 - https://euerforum.de/modcp.php?action=residences_home
 
 # Demo
-<img scr="https://www.bilder-hochladen.net/files/big/m4bn-e2-87b6.png">
-<img scr="https://www.bilder-hochladen.net/files/big/m4bn-e3-5040.png">
-<img scr="https://www.bilder-hochladen.net/files/big/m4bn-e3-5040.png">
+<img src="https://www.bilder-hochladen.net/files/big/m4bn-e2-87b6.png">
+<img src="https://www.bilder-hochladen.net/files/big/m4bn-e3-5040.png">
+<img src="https://www.bilder-hochladen.net/files/big/m4bn-e3-5040.png">
