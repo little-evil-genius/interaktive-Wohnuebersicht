@@ -54,4 +54,8 @@ Hinzugefügte Tabellen:
 # Demo
 <img src="https://www.bilder-hochladen.net/files/big/m4bn-e2-87b6.png">
 <img src="https://www.bilder-hochladen.net/files/big/m4bn-e3-5040.png">
-<img src="https://www.bilder-hochladen.net/files/big/m4bn-e3-5040.png">
+<img src="https://cdn.discordapp.com/attachments/952308191100817448/994323696812556419/unknown.png">
+<img src="https://cdn.discordapp.com/attachments/952308191100817448/994323784632897708/unknown.png">
+<img src="https://cdn.discordapp.com/attachments/952308191100817448/994324316189634650/unknown.png">
+<img src="https://cdn.discordapp.com/attachments/952308191100817448/994324385785708725/unknown.png">
+<img src="https://cdn.discordapp.com/attachments/952308191100817448/994324457994862663/unknown.png">
