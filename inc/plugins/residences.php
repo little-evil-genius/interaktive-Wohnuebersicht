@@ -788,7 +788,7 @@ function residences_global(){
 
 // DIE MISC SEITEN
 function residences_misc() {
-    global $db, $cache, $mybb, $lang, $templates, $theme, $header, $headerinclude, $footer, $streets_add, $home_add, $residences_streets;
+    global $db, $cache, $mybb, $page, $lang, $templates, $theme, $header, $headerinclude, $footer, $streets_add, $home_add, $residences_streets;
 
     // SPRACHDATEI LADEN
     $lang->load('residences');
