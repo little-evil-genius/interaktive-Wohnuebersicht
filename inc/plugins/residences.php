@@ -314,6 +314,15 @@ function residences_install(){
 	$db->insert_query("templates", $insert_array);
 
 	$insert_array = array(
+		'title'        => 'residences_postbit_address',
+		'template'    => $db->escape_string('{$street} {$number}'),
+		'sid'        => '-2',
+		'version'    => '',
+		'dateline'    => TIME_NOW
+	);
+	$db->insert_query("templates", $insert_array);
+
+	$insert_array = array(
 		'title'        => 'residences_memberprofile_roomates',
 		'template'    => $db->escape_string('{$user}<br />'),
 		'sid'        => '-2',
@@ -1867,4 +1876,45 @@ function residences_myalert_alerts() {
 		);
 	}
     
+}
+
+$plugins->add_hook("postbit", "residences_postbit");
+// ANZEIGE IM POSTBIT
+function residences_postbit(&$post){
+
+    global $templates, $db, $mybb, $lang, $theme, $residences_address;
+
+    $uid = $post['uid'];
+
+    $postbit_query = $db->query("SELECT * FROM ".TABLE_PREFIX."residences_user u
+    LEFT JOIN ".TABLE_PREFIX."residences_home h
+    ON (u.hid = h.hid) 
+    LEFT JOIN ".TABLE_PREFIX."residences_streets s
+    ON (u.sid = s.sid) 
+    WHERE u.uid = '".$uid."'
+    ");
+        
+    while($postbit = $db->fetch_array($postbit_query)){
+
+        // Alles leer laufen lassen
+        $hid = "";
+        $sid = "";
+        $street= "";
+        $number = "";
+        $type = "";
+        $personcount = "";
+        $accepted = ""; 
+        $sendedby = "";
+   
+        // Füllen wir mal alles mit Informationen
+        $hid = $postbit['hid'];
+        $sid = $postbit['sid'];
+        $street = $postbit['street'];
+        $number = $postbit['number'];
+        $type = $postbit['type'];
+        $personcount = $postbit['personcount'];
+        $accepted = $postbit['accepted'];
+
+        eval("\$post['residences_address'] .= \"".$templates->get("residences_postbit_address")."\";");
+    }        
 }
