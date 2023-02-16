@@ -727,6 +727,9 @@ function residences_activate(){
 	find_replace_templatesets('header', '#'.preg_quote('{$bbclosedwarning}').'#', '{$new_street_alert} {$new_home_alert} {$bbclosedwarning}');
     find_replace_templatesets('modcp_nav_users', '#'.preg_quote('{$nav_ipsearch}').'#', '{$nav_ipsearch} {$nav_residences}');
     find_replace_templatesets("member_profile", "#".preg_quote('{$warning_level}').'#', '{$warning_level} {$residences_address} {$residences_roommate}');
+    find_replace_templatesets('postbit_classic', '#'.preg_quote('<div class="author_statistics">{$post[\'user_details\']}').'#', '{$post[\'residences_address\']} <div class="author_statistics">{$post[\'user_details\']}');
+	find_replace_templatesets('postbit', '#'.preg_quote('<div class="author_statistics">{$post[\'user_details\']}').'#', '{$post[\'residences_address\']} <div class="author_statistics">{$post[\'user_details\']}');
+
    
 }
  
@@ -742,6 +745,8 @@ function residences_deactivate(){
     find_replace_templatesets("header", "#".preg_quote('{$new_street_alert} {$new_home_alert}')."#i", '', 0);
     find_replace_templatesets("modcp_nav_users", "#".preg_quote('{$nav_residences}')."#i", '', 0);
     find_replace_templatesets("member_profile", "#".preg_quote('{$residences_address} {$residences_roommate}')."#i", '', 0);
+    find_replace_templatesets("postbit_classic", "#".preg_quote('{$post[\'residences_address\']}')."#i", '', 0);
+    find_replace_templatesets("postbit", "#".preg_quote('{$post[\'residences_address\']}')."#i", '', 0);
 
     // STYLESHEET ENTFERNEN
 	$db->delete_query("themestylesheets", "name = 'residences.css'");
