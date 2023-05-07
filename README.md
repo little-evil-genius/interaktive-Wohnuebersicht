@@ -1,4 +1,4 @@
-# interaktive-Wohnuebersicht
+# interaktive Wohnübersicht
 Dieses Plugin erweitert das Board um eine manuelle Liste über die Wohnorte der Charaktere. Ausgewählte Gruppen können Straßen und Wohnorte hinzufügen, welche vom Team freigeschaltet werden müssen. Wohnorte vom Team werden direkt freigeschalt. Die Benachrichtigung erfolgt über eine MyAlert Benachrichtigung.<br>
 Den Straßen können Beschreibungen und Bewertungen hinzugefügt werden. User können nur in einen einzigen Wohnort einziehen und die Adresse (Straße Nummer) wird dann über eine Variable im Profil angezeigt. Genau wie alle Mitbewohner von dem Charakter.
 
@@ -52,10 +52,10 @@ Hinzugefügte Tabellen:
   </blockquote>
 
 # Demo
-<img src="https://www.bilder-hochladen.net/files/big/m4bn-e2-87b6.png">
-<img src="https://www.bilder-hochladen.net/files/big/m4bn-e3-5040.png">
-<img src="https://cdn.discordapp.com/attachments/952308191100817448/994323696812556419/unknown.png">
-<img src="https://cdn.discordapp.com/attachments/952308191100817448/994323784632897708/unknown.png">
-<img src="https://cdn.discordapp.com/attachments/952308191100817448/994324316189634650/unknown.png">
-<img src="https://cdn.discordapp.com/attachments/952308191100817448/994324385785708725/unknown.png">
-<img src="https://cdn.discordapp.com/attachments/952308191100817448/994324457994862663/unknown.png">
+<img src="https://stormborn.at/plugins/wohnuebersicht_add.png">
+<img src="https://stormborn.at/plugins/wohnuebersicht_streets.png">
+<img src="https://stormborn.at/plugins/wohnuebersicht_streets2.png">
+<img src="https://stormborn.at/plugins/wohnuebersicht_profil.png">
+<img src="https://stormborn.at/plugins/wohnuebersicht_alerts.png">
+<img src="https://stormborn.at/plugins/wohnuebersicht_modcp.png">
+<img src="https://stormborn.at/plugins/wohnuebersicht_modcp2.png">
